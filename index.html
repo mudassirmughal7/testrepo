@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javacript</title>
+  </head>
+  <body>
+    <input type="text" id="number" />
+    <div id="result">
+      <button onclick="check()">Submit</button>
+    </div>
+    <script>
+      function check() {
+        let x = document.getElementById("number").value;
+        let y = document.getElementById("result");
+        if (x > 0) {
+          y.innerHTML = "Positive";
+        } 
+        else if(x==0)
+        {
+            y.innerHTML="The entered number is 0";
+
+        }
+        else {
+            y.innerHTML = "Negative";
+        }
+      }
+    </script>
+  </body>
+</html>
