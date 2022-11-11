@@ -1,0 +1,22 @@
+
+#button
+{
+    padding: 25px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 15px;
+    
+}
+#ans
+{
+    background-color: aliceblue;
+    height: 50px;
+    width: 20%;
+}
+#clr-btn
+{
+    padding: 25px;
+    background-color: rgb(128, 52, 52);
+    color: #fff;
+    border-radius: 15px; 
+}
